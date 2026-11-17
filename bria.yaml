@@ -1,0 +1,16 @@
+policy:
+  retrieval_top_k: 50
+  global_search_depth: 10000
+  max_retrieval_queries: 20
+  max_tool_calls: 100
+  max_candidates_per_checkpoint: 16
+  max_llm_calls: 200
+  max_internal_actions: 200
+
+embedding:
+  model_id: Qwen/Qwen3-Embedding-8B
+  model_revision: 1d8ad4ca9b3dd8059ad90a75d4983776a23d44af
+  device: auto
+  dtype: bfloat16
+  batch_size: 16
+  max_length: 4096

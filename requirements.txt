@@ -1,0 +1,2 @@
+# Install from the repository root, including optional benchmark and embedding dependencies.
+-e .[qwen,mcp-data]
